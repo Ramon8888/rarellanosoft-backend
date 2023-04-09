@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="image/png" href="https://rarellano-soft.com/assets/img/logoRarellano.png">
+      <title>R Arellano Soft API's</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+      <div class="container mt-4 d-flex justify-content-center">
+      <img src="https://rarellano-soft.com/assets/img/logoRarellano.png" width="20%" />
+      </div>
+      <div class="container mt-4">
+            <div class="alert bg-dark text-center text-light alert-link" role="alert">
+                        Login Backend started!
+            </div>
+            <div class="alert bg-dark text-secondary" role="alert">
+                  <a href="https://rarellano-soft.com" target="blank" class="alert-link text-light">ir al sitio público</a>.
+            </div>
+            <div class="alert bg-dark text-secondary" role="alert">
+                  <a href="/api-doc" target="blank" class="alert-link text-light">ir a la documentación</a>.
+            </div>
+            <span id="users" style="width: 100%;"></span>
+            <span id="systems" style="width: 100%;"></span>
+            <span id="alert" style="width: 100%;"></span>
+            <div>
+                  <form action="" id="form-main">
+                        <input type="text" name="email" id="email">
+                        <input type="text" name="password" id="password">
+                        <input type="submit" value="Guardar">
+                  </form>
+            </div>
+      </div>
+      
+    <script src="socket.io/socket.io.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

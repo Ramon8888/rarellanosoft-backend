@@ -1,0 +1,1 @@
+FROM --platform=arm64 node:18.12.1
