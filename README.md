@@ -8,7 +8,7 @@ This project is the main app for R Arellano Group
 
 * Node version **18.12.1**
 * NPM version **8.19.2**
-* MariaDB version **10.7.8**
+* Mysql version **oracle**
 
 ---
 #### Installation
