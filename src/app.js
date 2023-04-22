@@ -56,9 +56,10 @@ server.listen( port, '0.0.0.0', async function () {
             logger.info(Banner.banner());
             logger.info(messages.SPLIT);
             logger.info('✓ '+messages.DATABASE_SUCCESS_CONNECTION)
-            logger.info('✓ '+'DB Engine: [' + process.env.DB_DIALECT+']')
-            logger.info('✓ '+'DB Host: [' + process.env.DB_HOST+']')
-            logger.info('✓ '+'DB Name: [' + process.env.DB_DATABASE+']')
+            logger.info('✓ '+'DB Engine: [ ' + process.env.DB_DIALECT_MYS+']')
+            logger.info('✓ '+'DB Host:   [ ' + process.env.DB_HOST_MYS+']')
+            logger.info('✓ '+'DB Name:   [ ' + process.env.DB_DATABASE_MYS+']')
+            logger.info('✓ '+'DB Name:   [ ' + process.env.DB_PORT_MYS+']')
       }).catch(error => {
             logger.error(flags.RED, messages.DATABASE_ERROR_CONNECTION)
             logger.error(error)

@@ -26,6 +26,8 @@
     "nodemailer": "^6.8.0",
     "password-generator": "^2.3.2",
     "path": "^0.12.7",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
     "sequelize": "^6.25.3",
     "socket.io": "^4.5.3",
     "swagger-jsdoc": "^6.2.5",

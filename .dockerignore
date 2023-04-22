@@ -5,3 +5,8 @@ Dockerfile
 .git
 .dockerignore
 .gitignore
+
+docker-compose.yml
+.git
+docker-compose.prod.yml
+dist
